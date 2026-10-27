@@ -1,0 +1,28 @@
+{
+  "name": "rawlink-analytics-exprct",
+  "version": "1.0.0",
+  "description": "A wireframe-themed custom URL shortener and click analytics dashboard",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev:server": "node --watch src/server.js",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "test": "node tests/suite.test.js"
+  },
+  "keywords": [
+    "url-shortener",
+    "click-analytics",
+    "express",
+    "react",
+    "sqlite",
+    "wireframe"
+  ],
+  "author": "Devis Rumi",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
